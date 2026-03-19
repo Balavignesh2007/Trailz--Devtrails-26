@@ -8,12 +8,7 @@ Git hub repository from Team mebers :- P.Harsha datta,A.Naga koushtub,B.Balavign
 ---
 
 ##  Problem Statement
-We propose a fully automated, AI-driven parametric insurance platform for gig-economy delivery partners.  
-
-The system verifies claims triggered by real-world events (extreme weather, floods, curfews) using:
-- Multi-source ground-truth data  
-- Machine learning fraud detection  
-- Transparent blockchain settlement  
+Delivery workers in India using apps like Zomato and Swiggy often lose income due to rain, heat, pollution, or curfews, sometimes losing 20–30% of their earnings, and currently there is no proper financial protection for this loss. The goal is to build a simple AI-based insurance system that automatically provides payouts when such disruptions occur, using a weekly payment model while excluding health and vehicle-related coverage. The system uses real-time data like weather and local conditions to verify whether the income loss is genuine. However, there is a risk of fraud through GPS spoofing, where users may fake their location to claim money. To prevent this, the system checks movement patterns, delivery activity, and device data instead of relying only on GPS. AI helps identify genuine users, detect fraud or group scams, and ensures quick payouts for honest workers, while suspicious cases go through simple verification checks to maintain fairness and security.
 
 It is specifically designed to resist advanced adversarial attacks, including coordinated GPS spoofing syndicates.  
 
@@ -60,8 +55,6 @@ Docker, Kubernetes, Vercel, Render, Prometheus, Grafana, ELK, GitHub Actions
 
 # Adversarial Defense & Anti-Spoofing Strategy
 
-##  Problem Statement
-This system is designed to detect and prevent fraudulent insurance claims made using GPS spoofing and coordinated syndicate attacks.
 
 **Core Principle:**  
 GPS is treated as a weak, forgeable signal.  
