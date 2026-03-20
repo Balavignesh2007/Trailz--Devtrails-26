@@ -7,7 +7,7 @@ Git hub repository from Team mebers :- P.Harsha datta,A.Naga koushtub,B.Balavign
 ## **🔗 Table of Contents**
 1. [Problem Overview](#problem-overview)  
 2. [Target Users](#target-users)  
-3. [How Our AI Works](#How-Our-AI-Works)
+3. [How Our AI Works](#how-our-ai-works) 
 4. [Weekly Premium Model](#weekly-premium-model)  
 5. [Business Model — ShieldRide](#advanced-business-model--shieldride)  
 6. [Model Performance](#model-performance-simulated)  
@@ -228,7 +228,7 @@ but is actually inside home.
 ❌ Claim rejected  
 
 ---
-## How Our AI Works (Simple View)
+## How Our AI Works
 
 Our system uses a multi-step AI validation pipeline:
 
