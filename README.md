@@ -1,9 +1,24 @@
 Trailz--Devtrails-26
 Git hub repository from Team mebers :- P.Harsha datta,A.Naga koushtub,B.Balavignesh, Ananya Kavuri, K. Sahithi Reddy
-#  AI-Powered Insurance Claim Verification System  
+# ShieldRide- AI-Powered Insurance Claim Verification System  
 ### DEVTrails 2026 — Phase 1 Submission  
 
 **Parametric Insurance • Fraud Detection • Anti-Spoofing • Blockchain Settlement**
+## **🔗 Table of Contents**
+1. [Problem Overview](#problem-overview)  
+2. [Target Users](#target-users)  
+3. [How Our AI Works](#How-Our-AI-Works)
+4. [Weekly Premium Model](#weekly-premium-model)  
+5. [Business Model — ShieldRide](#advanced-business-model--shieldride)  
+6. [Model Performance](#model-performance-simulated)  
+7. [Deployment Strategy](#deployment-strategy)  
+8. [Platform-Agnostic Design](#platform-agnostic-design)  
+9. [Smart Premium Calculation](#smart-premium-calculation)  
+10. [Technical Stack](#technical-stack)  
+11. [Adversarial Defense & Anti-Spoofing Strategy](#adversarial-defense--anti-spoofing-strategy)  
+12. [System Comparison](#detailed-comparison-existing-systems-vs-shieldride)  
+13. [System Architecture](#system-architecture)  
+14. [Phased Development Plan](#phased-development-plan)  
 
 ---
 ##  Problem Overview
@@ -23,8 +38,6 @@ We solve this using:
 It is specifically designed to resist advanced adversarial attacks, including coordinated GPS spoofing syndicates.  
 
 ---
-
-
 ##  Target Users
 
 Our primary users are gig economy delivery partners working with platforms like:
@@ -42,7 +55,6 @@ Our system ensures:
 - Instant financial protection
 - Fair and transparent claim verification
 ---
-
 ##  Scenario 1: Flood-Affected Delivery Partner
 
 ### Persona: Ayesha (Urban Delivery Worker)
@@ -62,7 +74,6 @@ Heavy rainfall causes sudden flooding in her delivery zone.
 - Confirms location consistency  
 
 ✅ Claim approved automatically  
-
 ---
 
 ##  Scenario 2: Curfew Restriction Case
@@ -82,7 +93,6 @@ Government imposes sudden curfew due to emergency.
 - Matches user activity pattern  
 
 ✅ Claim approved  
-
 ---
 
 ##  Scenario 3: GPS Spoofing Fraud Attempt ❌
@@ -104,7 +114,6 @@ to fake location in a heavy rain zone.
 ❌ Claim rejected  
 
  Fraud prevented  
-
 ---
 
 ##  Scenario 4: Coordinated Fraud Attack 🚨
@@ -126,7 +135,6 @@ from the same spoofed location.
 
  All claims flagged  
  Sent for investigation  
-
 ---
 
 ##  Scenario 5: Genuine User with Network Failure 
@@ -147,9 +155,7 @@ Heavy rain causes poor network connectivity.
 ✅ Claim approved (no penalty)  
 
  Ensures fairness  
-
 ---
-
 ##  Scenario 6: Partial Fraud / Suspicious Case ⚠️
 
 ### Persona: Rahul
@@ -205,9 +211,7 @@ User is actively delivering when rain starts.
 - Confirms authenticity  
 
 ✅ Claim approved instantly  
-
 ---
-
 ##  Scenario 9: Indoor Spoof Detection 
 
 ### Persona: Fraud Attempt
@@ -224,7 +228,7 @@ but is actually inside home.
 ❌ Claim rejected  
 
 ---
-##  How Our AI Works (Simple View)
+## How Our AI Works (Simple View)
 
 Our system uses a multi-step AI validation pipeline:
 
