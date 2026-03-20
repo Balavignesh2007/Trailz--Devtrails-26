@@ -791,5 +791,5 @@ flowchart TD
 - Advanced fraud detection (GNN)  
 - Scaling & production deployment  
 
-  ##  Core InnovationCore Innovation  
+  ##  Core Innovation
 "We don't trust location — we trust behavior, and we ensure fair payouts through adaptive loss estimation."
