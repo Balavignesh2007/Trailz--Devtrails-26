@@ -11,14 +11,14 @@ Git hub repository from Team mebers :- P.Harsha datta,A.Naga koushtub,B.Balavign
 Gig economy delivery partners lose up to 30% of their income due to uncontrollable events like floods, heavy rain, and curfews.
 
 Existing insurance systems:
-- ❌ Are slow  
-- ❌ Require manual verification  
-- ❌ Are vulnerable to fraud  
+- Are slow  
+- Require manual verification  
+- Are vulnerable to fraud  
 
 We solve this using:
-- 👉 AI-driven real-time verification  
-- 👉 Fraud-resistant architecture  
-- 👉 Blockchain-backed transparency  
+- AI-driven real-time verification  
+- Fraud-resistant architecture  
+- Blockchain-backed transparency  
 
 It is specifically designed to resist advanced adversarial attacks, including coordinated GPS spoofing syndicates.  
 
@@ -103,7 +103,7 @@ to fake location in a heavy rain zone.
 
 ❌ Claim rejected  
 
-👉 Fraud prevented  
+ Fraud prevented  
 
 ---
 
@@ -124,12 +124,12 @@ from the same spoofed location.
 - Graph-based fraud detection triggers  
 - Cluster anomaly detected  
 
-🚫 All claims flagged  
-🔍 Sent for investigation  
+ All claims flagged  
+ Sent for investigation  
 
 ---
 
-##  Scenario 5: Genuine User with Network Failure ⚠️
+##  Scenario 5: Genuine User with Network Failure 
 
 ### Persona: Kiran (Rural Delivery Partner)
 
@@ -146,7 +146,7 @@ Heavy rain causes poor network connectivity.
 
 ✅ Claim approved (no penalty)  
 
-👉 Ensures fairness  
+ Ensures fairness  
 
 ---
 
@@ -163,10 +163,10 @@ but exaggerates impact.
 - Behavior slightly inconsistent  
 
 ### Response:
-⚠️ Claim flagged  
-📸 Requests additional proof  
+⚠️Claim flagged  
+ Requests additional proof  
 
-👉 Prevents misuse without rejection  
+ Prevents misuse without rejection  
 
 ---
 
@@ -185,7 +185,7 @@ User frequently submits claims from same location.
 - Risk score increases  
 - Requires stricter validation  
 
-⚠️ Moves to higher verification tier  
+ Moves to higher verification tier  
 
 ---
 
@@ -208,7 +208,7 @@ User is actively delivering when rain starts.
 
 ---
 
-##  Scenario 9: Indoor Spoof Detection 🧠
+##  Scenario 9: Indoor Spoof Detection 
 
 ### Persona: Fraud Attempt
 
