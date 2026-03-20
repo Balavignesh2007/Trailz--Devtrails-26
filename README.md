@@ -6,7 +6,7 @@ Git hub repository from Team mebers :- P.Harsha datta,A.Naga koushtub,B.Balavign
 **Parametric Insurance • Fraud Detection • Anti-Spoofing • Blockchain Settlement**
 
 ---
-## 🚀 Problem Overview
+##  Problem Overview
 
 Gig economy delivery partners lose up to 30% of their income due to uncontrollable events like floods, heavy rain, and curfews.
 
@@ -25,7 +25,7 @@ It is specifically designed to resist advanced adversarial attacks, including co
 ---
 
 
-## 👤 Target Users
+##  Target Users
 
 Our primary users are gig economy delivery partners working with platforms like:
 - Swiggy
@@ -43,7 +43,7 @@ Our system ensures:
 - Fair and transparent claim verification
 ---
 
-## 📍 Scenario 1: Flood-Affected Delivery Partner
+##  Scenario 1: Flood-Affected Delivery Partner
 
 ### Persona: Ayesha (Urban Delivery Worker)
 - Location: Mumbai (flood-prone area)
@@ -65,7 +65,7 @@ Heavy rainfall causes sudden flooding in her delivery zone.
 
 ---
 
-## 📍 Scenario 2: Curfew Restriction Case
+##  Scenario 2: Curfew Restriction Case
 
 ### Persona: Arjun (Night Shift Delivery Partner)
 - Works late-night shifts  
@@ -85,7 +85,7 @@ Government imposes sudden curfew due to emergency.
 
 ---
 
-## 📍 Scenario 3: GPS Spoofing Fraud Attempt ❌
+##  Scenario 3: GPS Spoofing Fraud Attempt ❌
 
 ### Persona: Fake User (Fraud Attempt)
 
@@ -107,7 +107,7 @@ to fake location in a heavy rain zone.
 
 ---
 
-## 📍 Scenario 4: Coordinated Fraud Attack 🚨
+##  Scenario 4: Coordinated Fraud Attack 🚨
 
 ### Persona: Fraud Group (10+ users)
 
@@ -129,7 +129,7 @@ from the same spoofed location.
 
 ---
 
-## 📍 Scenario 5: Genuine User with Network Failure ⚠️
+##  Scenario 5: Genuine User with Network Failure ⚠️
 
 ### Persona: Kiran (Rural Delivery Partner)
 
@@ -150,7 +150,7 @@ Heavy rain causes poor network connectivity.
 
 ---
 
-## 📍 Scenario 6: Partial Fraud / Suspicious Case ⚠️
+##  Scenario 6: Partial Fraud / Suspicious Case ⚠️
 
 ### Persona: Rahul
 
@@ -170,7 +170,7 @@ but exaggerates impact.
 
 ---
 
-## 📍 Scenario 7: High-Risk Zone Frequent Claims
+##  Scenario 7: High-Risk Zone Frequent Claims
 
 ### Persona: Imran
 
@@ -189,7 +189,7 @@ User frequently submits claims from same location.
 
 ---
 
-## 📍 Scenario 8: Real-Time Movement Validation
+##  Scenario 8: Real-Time Movement Validation
 
 ### Persona: Sneha
 
@@ -208,7 +208,7 @@ User is actively delivering when rain starts.
 
 ---
 
-## 📍 Scenario 9: Indoor Spoof Detection 🧠
+##  Scenario 9: Indoor Spoof Detection 🧠
 
 ### Persona: Fraud Attempt
 
@@ -224,24 +224,24 @@ but is actually inside home.
 ❌ Claim rejected  
 
 ---
-## 🤖 How Our AI Works (Simple View)
+##  How Our AI Works (Simple View)
 
 Our system uses a multi-step AI validation pipeline:
 
-1. 📥 Claim is submitted by user  
-2. 🌍 AI Agent collects real-world data (weather + govt alerts)  
-3. 📊 ML models analyze:
+1.  Claim is submitted by user  
+2.  AI Agent collects real-world data (weather + govt alerts)  
+3.  ML models analyze:
    - Location consistency
    - Movement behavior
    - Fraud patterns  
-4. 🧠 NLP checks if user description matches real conditions  
-5. ⚖️ Decision engine classifies:
-   - ✅ Genuine claim  
-   - ⚠️ Suspicious  
-   - ❌ Fraud  
+      NLP checks if user description matches real conditions  
+5.  Decision engine classifies:
+   -  Genuine claim  
+   -  Suspicious  
+   -  Fraud  
 
 ---
-## 💰 Weekly Premium Model
+##  Weekly Premium Model
 
 ShieldRide follows a **parametric insurance model**:
 
@@ -262,8 +262,8 @@ If predefined conditions are met:
 - Flood alert issued  
 - Government curfew  
 
-👉 Claim is automatically eligible for payout
-## 📱 Deployment Strategy
+ Claim is automatically eligible for payout
+##  Deployment Strategy
 
 We choose a **mobile-first approach** using React Native because:
 
@@ -276,9 +276,9 @@ Backend is deployed on cloud infrastructure (Render/Kubernetes) for:
 - Real-time processing  
 - High availability  
 
-👉 Ensures fast, reliable, and accessible service
+Ensures fast, reliable, and accessible service
 
-## 🧠 Smart Premium Calculation
+##  Smart Premium Calculation
 
 Premium is calculated using AI-driven risk scoring:
 
@@ -292,7 +292,7 @@ Premium is calculated using AI-driven risk scoring:
 - Regression models (XGBoost)  
 - Risk scoring algorithms  
 
-👉 Result:
+ Result:
 - Fair pricing  
 - Personalized premiums  
 - Reduced fraud exploitation
@@ -418,7 +418,7 @@ Claims are rejected if no real-world event exists.
 - ≥10 accounts
 - ≥85% correlated timing
 
-➡️ Automatic payout freeze + investigation
+ Automatic payout freeze + investigation
 
 ---
 
@@ -481,37 +481,37 @@ Designed for real-world conditions:
 
 ```mermaid
 flowchart TD
-    A["👤 USER — Delivery Partner\n📱 Mobile App (React Native)\nSubmit Claim · Upload Evidence · Track Status"]
+    A[" USER — Delivery Partner\n Mobile App (React Native)\nSubmit Claim · Upload Evidence · Track Status"]
 
-    B["📡 Anti-Spoofing Layer\nGPS · WiFi · IP · Sensors\nBehavior · Device Fingerprint"]
+    B[" Anti-Spoofing Layer\nGPS · WiFi · IP · Sensors\nBehavior · Device Fingerprint"]
 
-    C["⚙️ Backend API Layer — FastAPI\nAuth · Claim Service · API Gateway"]
+    C[" Backend API Layer — FastAPI\nAuth · Claim Service · API Gateway"]
 
     A --> B --> C
 
-    C --> D["🤖 AI Agent Layer\nLangChain · AutoGen\nGPT / Claude"]
-    C --> E["📡 External Data\nWeather APIs · Govt APIs\nSatellite Data"]
-    C --> F["🧠 ML Fraud Engine\nXGBoost · Isolation Forest\nBERT NLP · GNN Fraud Rings"]
+    C --> D[" AI Agent Layer\nLangChain · AutoGen\nGPT / Claude"]
+    C --> E[" External Data\nWeather APIs · Govt APIs\nSatellite Data"]
+    C --> F[" ML Fraud Engine\nXGBoost · Isolation Forest\nBERT NLP · GNN Fraud Rings"]
 
     D --> G
     E --> G
     F --> G
 
-    G["⚖️ Decision Engine\nRisk Score + Explainability\nAuto-Approve · Flag · Reject"]
+    G[" Decision Engine\nRisk Score + Explainability\nAuto-Approve · Flag · Reject"]
 
-    G --> H["🗄️ Data Layer\nPostgreSQL · MongoDB\nPinecone / FAISS · InfluxDB"]
-    G --> I["🔗 Blockchain\nSmart Contracts\nPolygon / Ethereum\nChainlink Oracle · IPFS"]
-    G --> J["🛠️ Admin Dashboard\nNext.js\nFlagged Claims · Fraud Analytics\nRisk Score Insights · Manual Review · Override"]
+    G --> H[" Data Layer\nPostgreSQL · MongoDB\nPinecone / FAISS · InfluxDB"]
+    G --> I[" Blockchain\nSmart Contracts\nPolygon / Ethereum\nChainlink Oracle · IPFS"]
+    G --> J[" Admin Dashboard\nNext.js\nFlagged Claims · Fraud Analytics\nRisk Score Insights · Manual Review · Override"]
 
-    J --> K["🔁 Feedback Loop\nRetrain ML Models\nUpdate Risk Thresholds\nImprove Detection"]
+    J --> K[" Feedback Loop\nRetrain ML Models\nUpdate Risk Thresholds\nImprove Detection"]
 
     H --> L
     I --> L
     K --> L
 
-    L["☁️ Infrastructure Layer\nDocker · Kubernetes\nKafka — Event Streaming\nRedis + Celery — Async Jobs\nPrometheus · Grafana · ELK Stack"]
+    L[" Infrastructure Layer\nDocker · Kubernetes\nKafka — Event Streaming\nRedis + Celery — Async Jobs\nPrometheus · Grafana · ELK Stack"]
 
-    L --> M["💰 Smart Contract Payout Trigger\n📲 Real-Time Notification to User"]
+    L --> M[" Smart Contract Payout Trigger\n Real-Time Notification to User"]
 
     style A fill:#1e3a5f,color:#ffffff,stroke:#4a90d9
     style B fill:#2d1b4e,color:#ffffff,stroke:#9b59b6
@@ -528,7 +528,7 @@ flowchart TD
     style M fill:#0d3b0d,color:#ffffff,stroke:#2ecc71
 ```
 ---
-## 🗺️ Phased Development Plan
+##  Phased Development Plan
 
 ### Phase 1 (Current - Hackathon)
 - System design & architecture  
@@ -550,7 +550,7 @@ flowchart TD
 - Advanced fraud detection (GNN)  
 - Scaling & production deployment  
 
-  ## 💡 Core Innovation
+  ##  Core Innovation
 
 > **"We don't trust location — we trust behavior."**
 
